@@ -108,6 +108,7 @@ data class Cat(
 ### 📍 Other configurations
 
 While writing the SDK, version 2.48 of the Hilt library for Dependecy Injection was used, please work on this version in your projects and do not forget to create the "@HiltAndroidApp" class in your project for the SDK to work.
+
 ![image](https://github.com/user-attachments/assets/a3dcb8f8-ee7d-4f03-b67e-145b90024846)
 ![image](https://github.com/user-attachments/assets/e8f9fef2-1f54-4297-810e-ba0929a05b44)
 
