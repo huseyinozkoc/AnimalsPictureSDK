@@ -4,7 +4,9 @@
 
 This is an SDK and library from where you can get random animal images url.
 
-![all_Animals](https://github.com/user-attachments/assets/dfbc7d8c-ce66-4a03-9b60-e01e2c451694)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dfbc7d8c-ce66-4a03-9b60-e01e2c451694" alt="all_Animals">
+</p>
 
 
 ## 🚀Screenshots
