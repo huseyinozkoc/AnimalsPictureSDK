@@ -112,9 +112,10 @@ While writing the SDK, version 2.48 of the Hilt library for Dependecy Injection 
 ![image](https://github.com/user-attachments/assets/a3dcb8f8-ee7d-4f03-b67e-145b90024846)
 ![image](https://github.com/user-attachments/assets/e8f9fef2-1f54-4297-810e-ba0929a05b44)
 
-### 📍 If you want you can download the Sdk from here.
+### 📍 If you want you can download the SDK from here.
 
 [CatDogSDK-debug.zip](https://github.com/user-attachments/files/16646265/CatDogSDK-debug.zip)
+
 
 ![image](https://github.com/user-attachments/assets/d19cdc6b-6a38-4e1f-9cae-4b67015fd572)
 
