@@ -11,10 +11,9 @@ This is an SDK and library from where you can get random animal images url.
 
 | Animals | Animals | Animals  | Animals | Animals |
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
- ![image](https://github.com/user-attachments/assets/f0dc5946-c90f-4a2e-beca-b5a08afe4cc2) | ![image](https://github.com/user-attachments/assets/14c4d5f4-f46b-4ee0-a7d1-166aeb8f42e5) |![image](https://github.com/user-attachments/assets/fd192b04-5e3d-4653-8cf5-93448712a613)| ![image](https://github.com/user-attachments/assets/f75145c5-17f4-45e8-8c64-9a2e91bfe74b) | ![image](https://github.com/user-attachments/assets/057ebeb0-56e8-4c9a-9c04-76ae1988fcb6)
-   |
+ ![image](https://github.com/user-attachments/assets/f0dc5946-c90f-4a2e-beca-b5a08afe4cc2) | ![image](https://github.com/user-attachments/assets/14c4d5f4-f46b-4ee0-a7d1-166aeb8f42e5) |![image](https://github.com/user-attachments/assets/fd192b04-5e3d-4653-8cf5-93448712a613)| ![image](https://github.com/user-attachments/assets/f75145c5-17f4-45e8-8c64-9a2e91bfe74b) | ![image](https://github.com/user-attachments/assets/057ebeb0-56e8-4c9a-9c04-76ae1988fcb6) |
 
-## Gradle
+## 📍 Gradle
 
 Add  " maven { url 'https://jitpack.io' } " in your `root build.gradle` at the end of repositories:
 
@@ -34,7 +33,7 @@ Add dependency to your `build.gradle` and sync your project
 implementation ("com.github.huseyinozkoc:AnimalsPictureSDK:1.0.7")
 ```
 
-## How to use
+## 📍  How to use
 
 To access the URLs of random animal pictures, you can easily use the UseCase of the relevant animals and randomly access the URLs of the pictures of the animals you want:
 
@@ -60,7 +59,7 @@ class AnimalViewModel @Inject constructor(
     val cat: StateFlow<Resource<Cat>> = _cat
 ```
 
-### Animals
+### 📍 Animals
 
 Now you can only access random  `Cat, Dog, Duck and Fox ` image urls  `using the 4 relevant UseCase above.`
 
@@ -71,7 +70,7 @@ Now you can only access random  `Cat, Dog, Duck and Fox ` image urls  `using the
     private val getCatUseCase: GetCatUseCase
 ```
 
-### Models
+### 📍 Models
 
 You can use the previously created`Cat, Dog, Duck and Fox ` models from the SDK. These contain the image urls of the animals.
 
@@ -96,13 +95,15 @@ data class Cat(
 )
 ```
 
-###  Other configurations
+### 📍 Other configurations
 
 While writing the SDK, version 2.48 of the Hilt library for Dependecy Injection was used, please work on this version in your projects and do not forget to create the "@HiltAndroidApp" class in your project for the SDK to work.
 ![image](https://github.com/user-attachments/assets/a3dcb8f8-ee7d-4f03-b67e-145b90024846)
 ![image](https://github.com/user-attachments/assets/e8f9fef2-1f54-4297-810e-ba0929a05b44)
 
-###  If you want you can download the Sdk from here.
+### 📍 If you want you can download the Sdk from here.
+
+[CatDogSDK-debug.zip](https://github.com/user-attachments/files/16646265/CatDogSDK-debug.zip)
 
 ![image](https://github.com/user-attachments/assets/d19cdc6b-6a38-4e1f-9cae-4b67015fd572)
 
