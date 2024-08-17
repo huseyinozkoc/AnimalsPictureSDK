@@ -61,6 +61,14 @@ class AnimalViewModel @Inject constructor(
     val cat: StateFlow<Resource<Cat>> = _cat
 ```
 
+```Kotlin
+sealed interface Resource<out T> {
+    data class Success<T>(val data: T) : Resource<T>
+    data class Error(val throwable: Throwable) : Resource<Nothing>
+    object Loading : Resource<Nothing>
+}
+```
+
 ### 📍 Animals
 
 Now you can only access random  `Cat, Dog, Duck and Fox ` image urls  `using the 4 relevant UseCase above.`
