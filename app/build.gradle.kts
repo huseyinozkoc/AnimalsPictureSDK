@@ -42,11 +42,18 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"
     }
+
+    defaultConfig {
+        multiDexEnabled = true
+    }
+
+
 }
 
 dependencies {
 
     implementation(project(":CatDogSDK"))
+    implementation("androidx.multidex:multidex:2.0.1")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

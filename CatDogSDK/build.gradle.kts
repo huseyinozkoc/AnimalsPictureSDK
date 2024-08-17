@@ -49,9 +49,16 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    defaultConfig {
+        multiDexEnabled = true
+    }
+
+
 }
 
 dependencies {
+
+    implementation("androidx.multidex:multidex:2.0.1")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
